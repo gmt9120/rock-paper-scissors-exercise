@@ -12,3 +12,8 @@ print("You chose", user_choice, "!")
 if user_choice not in ["rock", "paper", "scissors"]:
     print("Error. Please enter rock, paper, or scissors")
     exit()
+
+### SIMULATING COMPUTER SELECTION ###
+
+computer_choice = choice(["rock", "paper", "scissors"])
+print("The Computer chose", computer_choice, "!")
