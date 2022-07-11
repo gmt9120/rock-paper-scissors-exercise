@@ -34,4 +34,4 @@ elif user_choice == "scissors" and computer_choice == "paper":
 elif user_choice == "scissors" and computer_choice == "rock":
     print("Rock beats scissors. You lose :(")
 
-print(Thanks for playing. Please play again!)
+print("Thanks for playing. Please play again!")
