@@ -1,6 +1,6 @@
 # rps-starter
 
-A Starter Repository for the [Rock Paper Scissors Exercise](https://github.com/prof-rossetti/intro-to-python/blob/main/exercises/rock-paper-scissors/README.md).
+Here is what you need to setup to run Ellie's Rock-Paper-Scissors game:
 
 ## Setup
 
