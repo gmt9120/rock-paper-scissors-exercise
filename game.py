@@ -31,3 +31,4 @@ elif user_input == "SCISSORS":
     user_choice == "Scissors"
 else:
     quit()
+print(user_choice)
