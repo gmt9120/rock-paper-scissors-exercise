@@ -3,12 +3,12 @@
 from multiprocessing import RLock
 from secrets import choice
 
-print("Welcome 'Player One' to my Rock-Paper-Scissors game...")
+player_name = input("What is your name?")
+print(f"Welcome, {player_name}, to my Rock-Paper-Scissors game...")
 
 ### PROCESSING AND VALIDATING USER INPUTS ###
-
 user_choice = input("Please choose either 'rock', 'paper', or 'scissors' and input it here:").lower()
-print("You chose:", user_choice)
+print(f"You chose: '{user_choice}'")
 if user_choice not in ["rock", "paper", "scissors"]:
     print("Error. Please enter 'rock', 'paper', or 'scissors'")
     exit()
