@@ -4,6 +4,7 @@ from multiprocessing import RLock
 from random import random
 from secrets import choice
 
+print("Let's play Rock-Paper-Scissors!")
 player_name = input("What is your name?")
 print(f"Welcome, {player_name}, to my Rock-Paper-Scissors game...")
 
