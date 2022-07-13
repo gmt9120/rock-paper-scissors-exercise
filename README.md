@@ -1,4 +1,4 @@
-# rps-starter
+# Rock-Paper-Scissors Instructions
 
 Here is what you need to setup to run Ellie's Rock-Paper-Scissors game:
 

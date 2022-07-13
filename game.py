@@ -1,6 +1,8 @@
 # this is the "game.py" file...
 
 from multiprocessing import RLock
+from random import random
+import(random)
 from secrets import choice
 
 player_name = input("What is your name?")
@@ -14,8 +16,8 @@ if user_choice not in ["rock", "paper", "scissors"]:
     exit()
 
 ### SIMULATING COMPUTER SELECTION ###
-
-computer_choice = choice(["rock", "paper", "scissors"])
+valid_options = ["rock", "paper", "scissors"]
+computer_choice = random.choice(valid_options)
 print("The computer chose:", computer_choice)
 
 ### DETERMINING THE WINNER ###
